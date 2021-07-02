@@ -31,3 +31,15 @@ class AProgram{
     return m;
   }
 }
+
+/*
+    for (int i=0;i<len;i++){
+      int x= (int)A[i];
+      if (x>57){
+        System.out.print(A[i]);
+        for (int j=i+1;j<len &&(int)A[j]<57;j++) n=(n*10)+(int)A[j]-48;
+        for (int j=0;j<n-1;j++) System.out.print(A[i]);
+        n=0;
+      }
+    }
+*/
